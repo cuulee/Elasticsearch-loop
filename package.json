@@ -1,0 +1,19 @@
+{
+  "name": "elasticsearch-loop",
+  "version": "0.0.1",
+  "description": "",
+  "main": "/src/elasticloop.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thangman22/Elasticsearch-loop.git"
+  },
+  "author": "Warat Wongmaneekit <canopybanj@gmail.com> (http://thangis.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thangman22/Elasticsearch-loop/issues"
+  },
+  "homepage": "https://github.com/thangman22/Elasticsearch-loop#readme"
+}
