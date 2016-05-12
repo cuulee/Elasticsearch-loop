@@ -11,7 +11,10 @@ var elasticLoop = require("./elasticloop.js");
 elasticLoop.connect({
     host: 'localhost:9200'
 });
-elasticLoop.debugMode();
+
+//Remove comment when you want to debug
+//elasticLoop.debugMode();
+
 elasticLoop.query({
         index: 'main',
         q: 'time:[2016-01-01 TO 2016-12-31]',
