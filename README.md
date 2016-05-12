@@ -1,3 +1,27 @@
-# Elasticsearch-loop
+# Elasticsearch loop
+
 
 Elasticsearch Loop is package are made your elasticsearch full paging loop is easier. Just few line of code you could loop all paging and take action with your data in elasticsearch
+
+## Example
+```
+var elasticLoop = require("./elasticloop.js");
+
+elasticLoop.connect({
+    host: 'localhost:9200'
+});
+elasticLoop.debugMode();
+elasticLoop.query({
+        index: 'main',
+        q: 'time:[2016-01-01 TO 2016-12-31]',
+},function(data){
+    //What do you want to do with each data.
+},function(data){
+    //What do you want to do when your loop is success finish.
+},function(data){
+    //What do you want to do when query is error.
+},function(data){
+    //What do you want to do when your loop is finish with error.
+});
+
+```
