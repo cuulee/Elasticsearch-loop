@@ -3,11 +3,12 @@
 
 Elasticsearch Loop is package are made your elasticsearch full paging loop is easier. Just few line of code you could loop all paging and take action with your data in elasticsearch
 
-## Example
+### Example
 
 ```javascript
-var elasticLoop = require("./elasticloop.js");
+var elasticLoop = require("elasticloop");
 
+// Connect Elasticsearch 
 elasticLoop.connect({
     host: 'localhost:9200'
 });
@@ -29,3 +30,7 @@ elasticLoop.query({
 });
 
 ```
+
+### Remark
+* This library is using scan & score method
+* Query and connection parameter reference from https://github.com/elastic/elasticsearch-js
