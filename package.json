@@ -2,7 +2,7 @@
   "name": "elasticsearch-loop",
   "version": "0.0.1",
   "description": "",
-  "main": "/src/elasticloop.js",
+  "main": "index.js",
   "scripts": {
     "test": ""
   },
