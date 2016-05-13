@@ -6,9 +6,9 @@ Elasticsearch Loop is package are made your elasticsearch full paging loop is ea
 ### Example
 
 ```javascript
-var elasticLoop = require("elasticloop");
+var elasticLoop = require("elasticsearch-loop");
 
-// Connect Elasticsearch 
+// Connect Elasticsearch
 elasticLoop.connect({
     host: 'localhost:9200'
 });

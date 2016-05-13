@@ -1,6 +1,6 @@
 {
   "name": "elasticsearch-loop",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/thangman22/Elasticsearch-loop/issues"
   },
-  "homepage": "https://github.com/thangman22/Elasticsearch-loop#readme"
+  "homepage": "https://github.com/thangman22/Elasticsearch-loop#readme",
+  "dependencies": {
+    "elasticsearch": "^11.0.1"
+  }
 }
